@@ -1,0 +1,28 @@
+{
+    "name": "snapshotpl/zf-snap-last-fm",
+    "description": "Last.fm API client for Zend Framework 2",
+    "keywords": [
+        "lastfm",
+        "zf2",
+        "api",
+        "module",
+        "zend framework"
+    ],
+    "authors": [
+        {
+            "name": "Witold Wasiczko",
+            "email": "witold@wasiczko.pl",
+            "homepage": "http://www.psd2html.pl/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "zendframework/zendframework": "~2.3",
+        "snapshotpl/last-fm-client": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ZfSnapLastFm\\": "src/"
+        }
+    }
+}
